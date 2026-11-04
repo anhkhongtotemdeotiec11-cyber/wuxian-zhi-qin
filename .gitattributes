@@ -1,0 +1,12 @@
+* text=auto
+*.v text eol=lf
+*.py text eol=lf
+*.ino text eol=lf
+*.md text eol=lf
+*.js text eol=lf
+*.json text eol=lf
+*.bmp binary
+*.BMP binary
+*.bin binary
+*.binx binary
+*.fs -text

@@ -1,0 +1,24 @@
+# Gowin generated build outputs; retain project settings in impl/*.json.
+**/fpga/impl/gwsynthesis/
+**/fpga/impl/pnr/
+**/fpga/impl/temp/
+*.gprj.user
+# Python/editor/OS local files
+__pycache__/
+*.py[cod]
+.venv/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+# Local credentials and signing material
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.keystore
+*.jks
+
+# Device Wi-Fi configuration (private, local only)
+**/wifi_config.h
